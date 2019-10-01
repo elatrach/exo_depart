@@ -1,0 +1,14 @@
+header { 
+  background-color: #000066;
+  padding: 0px;
+  color: white;
+}
+
+#adopter{
+    background-color: #000066;
+    height: 30%;
+    width: 100%;
+    color: white;
+    
+    text-align: center;
+}
