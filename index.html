@@ -9,10 +9,33 @@
 </head>
 <body>
   <header>
-    <h2>ohmyCats !</h2>
+    <div id="ohmycat">
+      <h2>ohmyCats !</h2>
+    </div>
+    <div id="adopter">
+        Adoptez un chat trop bon!
+    </div>
   </header>
-  <div id="adopter">
-      Adoptez un chat trop bon!
-  </div>
+  <main>
+        <article>
+            <h1>Les chats à adopter</h1>
+                <div class="container">
+                      <form action="#">
+                        
+                        <label for="choix">Choix du chat</label>
+                        <select id="choix" name="choix">
+                          <option value="australia">chat1</option>
+                          <option value="canada">chat2</option>
+                          <option value="usa">chat3</option>
+                        </select>
+
+                        <label for="subject">Raison d'adoption</label>
+                        <textarea id="subject" name="subject" placeholder="Saisissez ici les raisons pour lesquelles cous souhaitez adopter ce chat..." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                      </form>
+                </div>
+        </article>    
+  </main>  
 </body>
 </html>

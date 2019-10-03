@@ -1,14 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header { 
+  background-image: url("img/background.jpg");
+  height:228px;
+}
+
+#ohmycat{
   background-color: #000066;
-  padding: 0px;
+  padding-left: 386px;  
+  padding-top: 12px;
   color: white;
+  height: 47px;
 }
 
 #adopter{
-    background-color: #000066;
-    height: 30%;
-    width: 100%;
     color: white;
-    
     text-align: center;
+    padding-top:70px;
+    font-size: 2em;
 }
